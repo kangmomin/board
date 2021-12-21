@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    background-color: #4D4ADF;
+}
+.main {
+    width: 700px;
+    height: 850px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.id input:first-child {
+    width: 350px;
+    height: 30px;
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.duplicate {
+    width: 120px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #7886FF;
+    color: white;
+    margin-left: 30px;
+    border: 0;
+}
+.password input {
+    width: 505px;
+    height: 30px;
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.info {
+    width: 520px; 
+    height: 130px;
+    margin: 0 auto;
+    border-bottom: 2px solid #949494;
+}
+.otherInfo {
+    width: 520px;
+    margin: 0 auto;
+}
+.otherInfo input:first-child {
+    width: 350px;
+    height: 30px;
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.otherInfo input:nth-child(3) {
+    width: 350px;
+    height: 30px;
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.imgArea {
+    width: 520px;
+    height: 370px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.connImg {
+    width: 280px;
+    height: 370px;
+    border: 2px solid #001AFF;
+}
+.controlBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.controlBtn input:first-child {
+    width: 210px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-left: 30px;
+    padding: 5px;
+    line-height: 20px;
+    border: 2px solid #7886FF;
+}
+.controlBtn input:last-child {
+    width: 140px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #7886FF;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+}

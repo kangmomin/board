@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="approve.css">
+</head>
+<body>
+    <li class="main"> 
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(0)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(0)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(1)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(1)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(2)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(2)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(3)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(3)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(4)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(4)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(5)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(5)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(6)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(6)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(7)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(7)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(8)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(8)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        <ul class="Group">
+            <p class="id">10901</p> 
+            <p class="name">koldin</p> 
+            <div onclick="viewImg(9)" class="img">
+                <p class="imgBtn">학생증 이미지보기</p>
+                <img class="idCard" src="" alt="학생증이미지">
+            </div>
+            <div class="controll">
+                <input class="approveBtn" type="button" value="승인">
+                <input class="rejectBtn" type="button" value="거부" onclick="reject(9)">
+                <textarea class="rejectReason"></textarea>
+            </div>
+        </ul>
+        
+    </li>
+<script>
+    function viewImg(num) {
+        const id = document.getElementsByClassName("idCard")[num]
+        
+        if(id.style.display === 'none' ){
+            id.style.display = 'block'
+        }
+        else {
+            id.style.display ='none'
+        }
+    }
+    function reject(num) {
+        const rejectBtn = document.getElementsByClassName("rejectReason")[num]
+        
+        if(rejectBtn.style.display = 'none' ){
+            rejectBtn.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
